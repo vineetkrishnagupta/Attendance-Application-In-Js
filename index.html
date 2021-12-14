@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- ****** this link for the mainCss ****** -->
+        <link rel="stylesheet" href="mainCss.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            <div class="container"><br>
+                <div style="float:left"><h1 id="date"></h></div>  
+                <div style="float: right;"><button class="btn" onclick="myPrint()">Print</button></div>
+            </div>
+        </div>
+        <div style="margin-top: 2%;"><br><hr>
+            <div class="container">
+                <input type="text" id="myInput" onkeyup="myFunction()" autocomplete="off" placeholder="Search" title="Type in a name">
+            </div>
+            <div class="container">
+                <table id="myTable">
+
+                    <!-- ****** YOU CAN BE MAKE UNLIMITED <tr> TAG, ACCORDING TO NO. OF STUDENTS ****** -->
+                    <tr class="header">
+                        <th style="width: 5%;">S.No</th>
+                        <th style="width: 85%;">Name</th>
+                        <th style="width: 10%;">Attendance</th>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;1</td>
+                        <td> NAME_1 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;2</td>
+                        <td> NAME_2 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;3</td>
+                        <td> NAME_3 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;4</td>
+                        <td> NAME _4 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;5</td>
+                        <td> NAME_5 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;6</td>
+                        <td> NAME_6 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&nbsp;7</td>
+                        <td> NAME_7 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;8</td>
+                        <td> NAME_8 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;9</td>
+                        <td> NAME_9 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td> NAME_10 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td> NAME_11 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>12</td>
+                        <td> NAME_12 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td> NAME_13 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td> NAME_14 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td> NAME_15 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td> NAME_16 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>17</td>
+                        <td> NAME_17 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>18</td>
+                        <td> NAME_18 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>19</td>
+                        <td> NAME_19 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>20</td>
+                        <td> NAME_20 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>21</td>
+                        <td> NAME_21 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>22</td>
+                        <td> NAME_22 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>23</td>
+                        <td> NAME_23 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>24</td>
+                        <td> NAME_24 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td>25</td>
+                        <td> NAME_25 </td> <!-- ****** YOU ARE CHANG NAMES ****** -->
+                        <td>&emsp;<input type="checkbox" style="width: 20px;height: 20px;"></td>
+                    </tr>
+
+                </table><hr>
+                <div id="clsDiv">
+                    <button class="btn btn-dark" onclick="myCls();" id="cls">Clear</button>
+                </div><br><br>
+            </div>
+        </div>
+
+        <!-- ****** this is mainJS ****** -->
+        <script type="text/javascript" src="mainJS.js"></script>  
+
+        <!-- ****** how to set date and day automatic goto this file****** -->
+        <script type="text/javascript" src="date&Day.js"></script>  
+
+        <!-- ****** how to work search bar goto this file ****** -->
+        <script type="text/javascript" src="search.js"></script>  
+        
+        <!-- ****** how to work printing and save PDF goto this file ****** -->
+        <script type="text/javascript" src="print.js"></script> 
+        
+        <!-- ****** how to work clear button goto this file ****** -->
+        <script type="text/javascript" src="clearButton.js"></script> 
+
+    </body>
+</html>
+<!-- ****** MAKE BY - Er. vineet k. gupta(B.tech) ****** -->
+<!-- ****** EMAIL   - vineetkrishnagupta@gamil.com ****** -->
+<!-- ****** PHONE   - +91 63945-12899 , +91 98397-60815 ****** -->
